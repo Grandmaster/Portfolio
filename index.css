@@ -17,6 +17,7 @@ body {
   }
   .container {
     background-color: white;
+    margin-left: 40px;
   }
   .row:first-child {
     border-bottom: 3px solid slategray;
@@ -32,4 +33,14 @@ body {
   }
   li:last-child {
       border: none;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(102, 102, 102);
+    color: white;
+    text-align: center;
+    border-top: 3px solid rgb(86, 169, 162);
   }
