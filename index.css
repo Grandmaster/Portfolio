@@ -8,6 +8,7 @@ body {
   #title {
     background-color: rgb(86, 169, 162);
     height: 100%;
+    color: white;
   }
   #about {
     color: rgb(86, 169, 162);
@@ -29,7 +30,10 @@ body {
     height: 100%;
   }
   li {
-      border-right: 1px solid gray;
+      border-right: 1px solid lightgray;
+  }
+  li > a {
+    color: gray;
   }
   li:last-child {
       border: none;
@@ -43,4 +47,8 @@ body {
     color: white;
     text-align: center;
     border-top: 3px solid rgb(86, 169, 162);
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
