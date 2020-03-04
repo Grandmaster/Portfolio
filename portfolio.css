@@ -1,13 +1,40 @@
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(102, 102, 102);
-    color: white;
-    text-align: center;
-    border-top: 3px solid rgb(86, 169, 162);
-  }
-  body {
-    background-image: url(Assets/Images/background.jpg);
-  }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(102, 102, 102);
+  color: white;
+  text-align: center;
+  border-top: 3px solid rgb(86, 169, 162);
+}
+body {
+  background-image: url(Assets/Images/background.jpg);
+}
+#work {
+  background-color: white !important;
+  margin-bottom: 20px;
+  padding: 0 16px;
+}
+#title {
+  background-color: rgb(86, 169, 162);
+  height: 100%;
+  color: white;
+  margin: 0;
+}
+* {
+  font-family: serif;
+}
+.navbar-brand {
+    padding: 0;
+}
+li {
+    border-right: 1px solid lightgray;
+}
+li > a {
+  color: gray;
+  padding: 0 16px;
+}
+li:last-child {
+    border: none;
+}
