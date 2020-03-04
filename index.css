@@ -1,0 +1,35 @@
+body {
+    background-image: url(Assets/Images/background.jpg);
+  }
+  #work {
+    background-color: white !important;
+    margin-bottom: 20px;
+  }
+  #title {
+    background-color: rgb(86, 169, 162);
+    height: 100%;
+  }
+  #about {
+    color: rgb(86, 169, 162);
+  }
+  * {
+    font-family: serif;
+  }
+  .container {
+    background-color: white;
+  }
+  .row:first-child {
+    border-bottom: 3px solid slategray;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  #header {
+    height: 100%;
+  }
+  li {
+      border-right: 1px solid gray;
+  }
+  li:last-child {
+      border: none;
+  }
