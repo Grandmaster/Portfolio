@@ -1,13 +1,3 @@
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(102, 102, 102);
-  color: white;
-  text-align: center;
-  border-top: 3px solid rgb(86, 169, 162);
-}
 body {
   background-image: url(Assets/Images/background.jpg);
 }
@@ -26,15 +16,38 @@ body {
   font-family: serif;
 }
 .navbar-brand {
-    padding: 0;
+  padding: 0;
 }
 li {
-    border-right: 1px solid lightgray;
+  border-right: 1px solid lightgray;
 }
-li > a {
+li > a.nav-link {
   color: gray;
   padding: 0 16px;
 }
 li:last-child {
-    border: none;
+  border: none;
+}
+#content {
+  background-color: white;
+  margin-left: 40px;
+}
+#content-title {
+  color: rgb(86, 169, 162);
+}
+.row:first-child {
+    border-bottom: 2px solid lightgray;
+}
+.btn-primary {
+  background-color: rgb(86, 169, 162);
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(102, 102, 102);
+  color: white;
+  text-align: center;
+  border-top: 3px solid rgb(86, 169, 162);
 }

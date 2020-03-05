@@ -31,7 +31,7 @@ body {
 li {
     border-right: 1px solid lightgray;
 }
-li > a {
+li > a.nav-link {
   color: gray;
   padding: 0 16px;
 }

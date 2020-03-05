@@ -17,7 +17,7 @@ body {
     color: white;
     margin: 0;
   }
-  #about {
+  #content-title {
     color: rgb(86, 169, 162);
   }
   * {
@@ -42,7 +42,7 @@ body {
   li {
       border-right: 1px solid lightgray;
   }
-  li > a {
+  li > a.nav-link {
     color: gray;
     padding: 0 16px;
   }
