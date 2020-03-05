@@ -54,9 +54,8 @@ body {
   li:last-child {
       border: none;
   }
-  img {
-    max-width: 100%;
-    height: auto;
+  .img-fluid {
+    float: left;
   }
   footer {
     position: fixed;
