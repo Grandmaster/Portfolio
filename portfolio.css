@@ -54,15 +54,30 @@ li:last-child {
   padding-left: 0;
 }
 .col-sm-6:first-child {
-    padding-left: 0;
+  padding-left: 0;
 }
 .col-sm-11 {
-  background-image: url(https://www.fillmurray.com/200/100);
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   padding: 0;
   margin-right: 0;
   height: 90px;
   position: relative;
+}
+.col-sm-11#Arsenal {
+  background-image: url(Borrowed-images/Arsenal_logo_crest_logotype.png);
+}
+.col-sm-11#Chelsea {
+  background-image: url(Borrowed-images/Chelsea_FC_logo_chrest_logotype.png);
+}
+.col-sm-11#Manchester-City {
+  background-image: url(Borrowed-images/Manchester_City_crest_logo_logotype_emblem.png);
+}
+.col-sm-11#Liverpool {
+  background-image: url(Borrowed-images/Liverpool_FC_logo_gradient.png);
+}
+.col-sm-11#Manchester-United {
+  background-image: url(Borrowed-images/Manchester_United_logo_logotype_crest.png);
 }
 .text-block {
   position: absolute;
