@@ -11,7 +11,7 @@ body {
   height: 100%;
   color: white;
   margin: 0 0 0 24px;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
 }
 *:not(h1) {
   font-family: sans-serif;
@@ -36,6 +36,7 @@ li:last-child {
 #content {
   background-color: white;
   margin-left: 40px;
+  padding: 20px 25px 20px 25px;
 }
 #content-title {
   color: rgb(86, 169, 162);
